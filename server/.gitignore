@@ -3,3 +3,7 @@ node_modules
 
 #Hide Env Variable
 .env
+
+
+#hide extra folders
+all before zip

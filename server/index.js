@@ -31,7 +31,9 @@ mongoose
   })
   .catch((err) => console.log(err.message));
 
-const server = app.listen(process.env.PORT, () =>
+const currentPort = process.env.PORT || 5000;
+
+const server = app.listen(currentPort, () =>
   console.log(`Server started at port: ${process.env.PORT}`)
 );
 
