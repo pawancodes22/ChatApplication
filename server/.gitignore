@@ -1,0 +1,5 @@
+#Hide Node Modules
+node_modules
+
+#Hide Env Variable
+.env
